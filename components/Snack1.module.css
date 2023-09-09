@@ -1,0 +1,35 @@
+/* Snack1.module.css */
+.snack1-container {
+  background-color: #ffeeaa;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  opacity: 0; 
+  animation: fadeIn 0.5s ease-in-out forwards; 
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.snack-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.snack-description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.back-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #007bff;
+}
